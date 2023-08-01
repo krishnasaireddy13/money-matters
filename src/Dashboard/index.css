@@ -1,0 +1,259 @@
+.das-main-con {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.das-con1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f5f7fa;
+}
+.das-con2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  background: #fff;
+  padding: 20px;
+  height: 5vh;
+}
+.add-transaction {
+  border-radius: 12px;
+  background: #2d60ff;
+  border-radius: 12px;
+  color: #fff;
+  width: 200px;
+  border-width: 0px;
+  height: 45px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Accounts {
+  color: #343c6a;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.das-con3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
+  gap: 15px;
+}
+.credit-con {
+  display: flex;
+  width: 520px;
+  height: 168px;
+  padding: 25px;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-color: #fff;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+.credit-balance {
+  color: #16dbaa;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.credit-p {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 7px;
+}
+.debt-con {
+  display: flex;
+  width: 520px;
+  height: 168px;
+  padding: 25px 36px;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  justify-content: space-between;
+}
+.debt-balance {
+  color: #fe5c73;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.debt-p {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.last-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 0px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.arrow-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: 0px;
+}
+.last-transaction {
+  color: #333b69;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.last-trans-con {
+  padding: 20px;
+  background-color: transparent;
+}
+.last-list-container {
+  text-align: left;
+  background-color: transparent;
+}
+.last-ul {
+  width: 1110px;
+  height: 210px;
+  padding: 12px 25px 8px 24px;
+  gap: 8px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 25px;
+  scrollbar-width: thin;
+  flex-shrink: 0;
+  overflow-y: scroll;
+}
+.up-arrow {
+  color: #16dbaa;
+  font-size: 35px;
+  margin-left: 0px;
+}
+.down-arrow {
+  color: #fe5c73;
+  font-size: 35px;
+}
+.trans-name {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.trans-category {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.trans-date {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.trans-credit-balance {
+  color: #16dbaa;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.trans-debit-balance {
+  color: #fe5c73;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.pencil-btn {
+  margin-right: 5px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.pencil {
+  font-size: 28px;
+  color: #2d60ff;
+}
+.trash-btn {
+  margin-left: 5px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.trash {
+  font-size: 28px;
+  color: #fe5c73;
+}
+.dahboard-scroll {
+  overflow-y: scroll;
+}
+.side-con {
+  .side-con {
+    flex: 0 0 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+}
+.graph-con {
+  background-color: #fff;
+  border-radius: 35px;
+}
+.graph-main-con {
+  padding: 25px;
+  border-radius: 30px;
+}
+.graph {
+  border-radius: 25px;
+}
+.graph-head {
+  color: #333b69;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

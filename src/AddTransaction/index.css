@@ -1,0 +1,127 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(52, 64, 84, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it appears above other content */
+}
+
+.popup-content {
+  background-color: white;
+  border-radius: 8px;
+  width: 466px;
+  height: 600px;
+  overflow-y: scroll;
+  padding: 30px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.popup-main-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.closeButton {
+  background-color: transparent;
+  border-width: 0px;
+  margin-top: -55px;
+}
+.close-icon {
+  font-size: 25px;
+  margin-top: 0px;
+}
+.add-trans {
+  color: #333b69;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 0px;
+}
+.add-p {
+  color: #505887;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0px;
+}
+.add-form {
+  display: flex;
+  flex-direction: column;
+}
+.text-input {
+  width: 418px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #dfeaf2;
+  background: #fff;
+  margin-top: 10px;
+}
+.text-label {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.add-select {
+  width: 418px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #dfeaf2;
+  background: #fff;
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+}
+.form-submit {
+  display: flex;
+  width: 418px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 45px;
+  border-radius: 8px;
+  background: var(--primary-3, #2d60ff);
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #fff;
+  border-width: 0px;
+}
+.add-msg {
+  color: #2b47e5;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.msg-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
